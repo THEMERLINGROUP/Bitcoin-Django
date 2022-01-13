@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<html>
+    <style>
+        table, th, td {
+            border:1px solid black;
+        }
+    </style>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Home</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        {% extends 'base.html' %}
+
+        {% block content %}
+        <h1>Buy Bitcoin!</h1>
+        <table><caption><h2>Top Ten Lighting Node Nations</h2></caption>
+            <thead>
+                <tr>
+                    <th>Country</th>
+                    <th>Number of Nodes</th>
+                    <th>Rank</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>United States</td>
+                    <td>1034</td>
+                    <td>1</td>
+                    
+                </tr>
+                <tr>
+                    <td>Germany</td>
+                    <td>338</td>
+                    <td>2</td>
+                    
+                </tr>
+                <tr>
+                    <td>Canada</td>
+                    <td>222</td>
+                    <td>3</td>
+                    
+                </tr>
+                <tr>
+                    <td>Netherlands</td>
+                    <td>153</td>
+                    <td>4</td>
+                    
+                </tr>
+                <tr>
+                    <td>France</td>
+                    <td>121</td>
+                    <td>5</td>
+                    
+                </tr>
+                <tr>
+                    <td>United Kingdom</td>
+                    <td>119</td>
+                    <td>6</td>
+                    
+                </tr>
+                <tr>
+                    <td>Switzerland</td>
+                    <td>86</td>
+                    <td>7</td>
+                    
+                </tr>
+                <tr>
+                    <td>Australia</td>
+                    <td>54</td>
+                    <td>8</td>
+                    
+                </tr>
+                <tr>
+                    <td>Spain</td>
+                    <td>46</td>
+                    <td>9</td>
+                    
+                </tr>
+                <tr>
+                    <td>Singapore</td>
+                    <td>44</td>
+                    <td>10</td>
+                    
+                </tr>
+            </tbody>
+   
+            </table>
+            <form action="enter">
+                Enter Name: <input type="text" name="username"><br>
+                Enter Your Country: <input type="text" name="yourcountry"><br>
+                <input type="submit">
+            </form>
+        <script src="" async defer></script>
+    {% endblock %}
+    </body>
+</html>
